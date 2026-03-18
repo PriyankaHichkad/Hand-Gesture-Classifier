@@ -30,6 +30,16 @@ https://teachablemachine.withgoogle.com/models/KtGrlPKhY/
 
 ---
 
+# Workflow
+
+![korean heart](https://github.com/PriyankaHichkad/Hand-Gesture-Classifier/blob/main/images/korean%20heart.jpeg)
+
+The workflow begins by creating multiple gesture classes in Google Teachable Machine, such as Korean Heart, Thumbs-Up, Peace Sign, Closed Fist, and Open Palm. For each class, image samples are collected using the webcam to build a dataset. After collecting sufficient data, the model is trained using the built-in training feature, where it learns to differentiate between the gestures. Once the training is complete, the model is tested in real time using the preview section, where the webcam input is analyzed and predictions are displayed with confidence scores. This step-by-step process of class creation, data collection, training, and testing ensures that the model can accurately recognize different hand gestures.
+
+![Closed Fist](https://github.com/PriyankaHichkad/Hand-Gesture-Classifier/blob/main/images/closed%20fist.jpeg)
+
+---
+
 # Objectives
 
 - To build a hand gesture classification model  
